@@ -1,0 +1,55 @@
+oob = "SPR_1936"
+capital = 175
+set_research_slots = 3
+set_stability = 50
+set_war_support = 40
+set_convoys = 300
+create_faction = "The empire "
+
+add_to_faction = mex
+
+add_ideas = {
+	limited_conscription
+	low_economic_mobilisation
+}
+
+
+set_autonomy = {
+	target = mex
+	autonomous_state = autonomy_dominion
+}
+
+
+
+#For start date 1936.1.1
+1936.1.1 = {
+	add_political_power = 1000
+	oob = "SPR_1936"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.23"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 10
+	communism = 20
+	neutrality = 40
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+
+
