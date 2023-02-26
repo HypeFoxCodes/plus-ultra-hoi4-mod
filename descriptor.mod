@@ -6,5 +6,5 @@ tags={
 	"Technologies"
 	"National Focuses"
 }
-name="Plus Ultra"
+name="plus-ultra-hoi4-mod"
 supported_version="1.11.12"
