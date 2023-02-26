@@ -4,9 +4,12 @@ set_research_slots = 3
 set_stability = 50
 set_war_support = 40
 set_convoys = 300
-create_faction = "The empire "
+create_faction = "The Empire"
 
 add_to_faction = mex
+add_to_faction = arg
+add_to_faction = col
+add_to_faction = pru
 
 add_ideas = {
 	limited_conscription
@@ -16,6 +19,21 @@ add_ideas = {
 
 set_autonomy = {
 	target = mex
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = arg
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = col
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = pru
 	autonomous_state = autonomy_dominion
 }
 
