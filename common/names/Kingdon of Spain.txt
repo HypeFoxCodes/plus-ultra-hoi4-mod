@@ -1,0 +1,18 @@
+SPR = {
+	male = {
+		names = {
+			"Felipe,Carlos " 
+		}
+	}
+	female = {
+		names = {
+			"" 
+		}
+	}
+	surnames = {
+		"" 
+	}
+	callsigns = {
+		"" 
+	}
+}
